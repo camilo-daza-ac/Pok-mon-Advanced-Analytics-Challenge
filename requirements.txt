@@ -1,0 +1,17 @@
+numpy>=1.26
+pandas>=2.1
+polars>=1.5
+requests>=2.32
+scikit-learn>=1.5
+matplotlib>=3.9
+seaborn>=0.13
+plotly>=5.24
+jupyterlab>=4.2
+ipykernel>=6.29
+nbformat>=5.10
+notebook>=7.2
+ipywidgets>=8.1
+streamlit>=1.39
+python-dotenv>=1.0
+pyarrow>=17.0
+
