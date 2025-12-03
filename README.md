@@ -22,7 +22,7 @@ pokeapi-challenge/
 │
 ├── notebooks/
 │   ├── 01_eda_pokemon.ipynb           # Exploración y validación del dataset
-│   ├── 02_build_features.ipynb        # Feature engineering y metrics avanzadas
+│   ├── 02_build_features.ipynb        # Feature engineering y métricas avanzadas
 │   ├── 03_power_score.ipynb           # Definición del Power Score final
 │   ├── 04_type_effectiveness.ipynb    # Análisis de tipos (ofensivo/defensivo)
 │   ├── 05_clustering_roles.ipynb      # Clustering + asignación de roles
