@@ -30,6 +30,30 @@ pokeapi-challenge/
 │
 └── README.md     # Este documento
 
+pokeapi-challenge/
+│
+├── data/
+│   ├── raw/        # Datos extraídos directamente de la PokéAPI
+│   ├── silver/     # Datos normalizados en CSV
+│   └── gold/       # Features finales, power scores, clusters, exports
+│
+├── etl/
+│   ├── run_etl_pipeline.py    # Orquestador: ejecuta todo el pipeline
+│   ├── extract_raw.py         # Descarga datos desde PokéAPI
+│   ├── transform_pokemon.py   # Normalización de Pokémon, stats, tipos y movimientos
+│   ├── transform_moves.py     # Normalización de movimientos (moves.csv)
+│   └── transform_types.py     # Construcción de matriz 18×18 de efectividad de tipos
+│
+├── notebooks/
+│   ├── 01_eda_pokemon.ipynb           # Exploración y validación del dataset
+│   ├── 02_build_features.ipynb        # Feature engineering y métricas avanzadas
+│   ├── 03_power_score.ipynb           # Definición del Power Score final
+│   ├── 04_type_effectiveness.ipynb    # Análisis de tipos (ofensivo/defensivo)
+│   ├── 05_clustering_roles.ipynb      # Clustering + asignación de roles
+│   └── 06_final_insights.ipynb        # Resultados finales para el informe
+│
+└── README.md     # Este documento
+
 ---
 
 ## 🧩 ¿Qué hace cada módulo del ETL?
