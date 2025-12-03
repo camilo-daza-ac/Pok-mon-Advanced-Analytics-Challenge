@@ -5,7 +5,7 @@ ETL Pipeline · Feature Engineering · Power Score · Clustering · Type Analysi
 Este repositorio contiene una solución completa al Pokémon Advanced Analytics Challenge, implementando un pipeline reproducible de obtención, procesamiento y análisis avanzado de datos provenientes de la PokéAPI. El objetivo es evaluar la fuerza relativa de cada Pokémon mediante un Power Score, analizar la efectividad de tipos y clasificar a las especies en roles estratégicos mediante clustering.
 
 ---
-
+## 📁 Estructura del Repositorio
 pokeapi-challenge/
 │
 ├── data/
